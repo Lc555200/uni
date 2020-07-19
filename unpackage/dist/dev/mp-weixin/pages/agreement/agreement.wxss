@@ -1,0 +1,27 @@
+
+.agreement {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #F1F1F1;
+}
+._h5 {
+	color: #555555;
+	font-weight: 500;
+	padding: 40rpx 0;
+}
+text {
+	font-size: 14px;
+	color: #555555;
+	margin-bottom: 10px;
+}
+

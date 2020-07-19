@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/modify/modify",
+    "pages/organization/organization",
+    "pages/register/register",
+    "pages/forgetpassword/forget",
+    "pages/agreement/agreement",
+    "pages/intention/intention",
+    "pages/ai/ai",
+    "pages/teach/teach",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "意向",
+        "pagePath": "pages/intention/intention",
+        "iconPath": "static/de_intention.png",
+        "selectedIconPath": "static/intention.png"
+      },
+      {
+        "text": "外呼",
+        "pagePath": "pages/ai/ai",
+        "iconPath": "static/de_AI.png",
+        "selectedIconPath": "static/AI.png"
+      },
+      {
+        "text": "师资",
+        "pagePath": "pages/teach/teach",
+        "iconPath": "static/de_teach.png",
+        "selectedIconPath": "static/teach.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/de_my.png",
+        "selectedIconPath": "static/my.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

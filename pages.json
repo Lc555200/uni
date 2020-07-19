@@ -1,0 +1,121 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		//登录
+		{
+			"path": "pages/login/login"
+		},
+		{
+			"path":"pages/new/new"
+		},
+		//申请
+		{
+			"path": "pages/register/register"
+		},
+		//修改密码
+		{
+			"path":"pages/modify/modify"
+		},
+		{
+			"path":"pages/modAccount/modAccount"
+		},
+		//找回密码
+		{
+			"path":"pages/forgetpassword/forget"
+		},
+		//机构信息
+		{
+			"path": "pages/organization/organization"
+		},
+		// 意向
+		{
+			"path": "pages/intention/intention",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},
+		//添加
+		{
+			"path":"pages/addUser/addUser",
+			"style":{
+				"navigationBarTitleText":"用户添加"
+			}
+		},
+		// AI
+		{
+			"path": "pages/ai/ai",
+			"style":{
+				"navigationBarTitleText":"AI外呼"
+			}
+		},
+		// 个人中心
+		{
+			"path": "pages/my/my",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},
+		//创建AI外呼任务
+		{
+			"path": "pages/createai/createai",
+			"style":{
+				"navigationBarTitleText":"创建AI外呼任务"
+			}
+		},
+		//费用中心
+		{
+			"path": "pages/expense/expense",
+			"style":{
+				"navigationBarTitleText":"费用统计"
+			}
+		},
+		//管理
+		{
+			"path":"pages/management/management",
+			"style":{
+				"navigationBarTitleText":"账号管理"
+			}
+		},
+		//概况
+		{
+			"path":"pages/General/general",
+			"style":{
+				"navigationBarTitleText":"概况"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"text": "意向",
+				"pagePath": "pages/intention/intention",
+				"iconPath": "static/de_intention.png",
+				"selectedIconPath": "static/intention.png"
+				},
+				{
+					"text": "添加",
+					"pagePath": "pages/addUser/addUser",
+					"iconPath": "static/de_addUser.png",
+					"selectedIconPath": "static/addUser.png"
+				},
+			{
+				"text": "外呼",
+				"pagePath": "pages/ai/ai",
+				"iconPath": "static/de_AI.png",
+				"selectedIconPath": "static/AI.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/de_my.png",
+				"selectedIconPath": "static/my.png"
+			}
+		]
+	}
+}

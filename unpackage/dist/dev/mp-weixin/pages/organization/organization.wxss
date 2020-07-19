@@ -1,0 +1,33 @@
+
+.organization {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.login {
+	width: 155rpx;
+	padding: 0 0 5rpx 0;
+	border-bottom: 3px solid #007AFF;
+	margin-bottom: 20px;
+}
+.uni-input {
+	width: 100%;
+	border-bottom: 1px solid #DCDEE0;
+	padding: 20rpx 0;
+	margin: 20rpx 0;
+}
+.submit {
+	margin-top: 80rpx;
+	background-color: #007AFF;
+	color: #FFFFFF;
+}
+
